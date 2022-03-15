@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SmenaComponent } from './component/smena/smena.component';
+import { XonaComponent } from './component/xona/xona.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SmenaComponent,
+    XonaComponent
   ],
   imports: [
     BrowserModule,
